@@ -1,0 +1,113 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+  margin: auto;
+  cursor: default;
+  text-align: center;
+}
+.header {
+  background: url(images/bg-header-desktop.png) top right no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 100px 20%;
+}
+p, h1, h2, h3, .button {
+  font-family: 'Open Sans', sans-serif; 
+}
+h1 {
+  font-size: 50px; 
+}
+h2 {
+  font-size: 40px; 
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 22px;
+  color: #A4ACAE; 
+}
+.button {
+  color: white;
+  margin: 15px;
+  padding: 20px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.but_1 {
+  background: #26BBA5;
+}
+.but_2 {
+  background: #6174FF; 
+}
+.main_header {
+  margin-bottom: 100px;
+  padding: 0 20% 0% 20%;
+}
+.computer {
+  width: 50%;
+  float: left;
+  height: 600px;
+}
+.computer img {
+  position: relative;
+  left: -200px;
+}
+.sidebar {
+  width: 30%;
+  text-align: left;
+  float: right;
+  height: 200px;
+  padding: 0 10% 0% 10%;
+}
+.clipboard {
+  margin: 750px 20% 50px;
+}
+.big_cell {
+  width: 29%;
+  float: left;
+  height: 250px;
+  padding: 2%;
+}
+.big_cell img {
+  height: 40px;
+}
+.small_cell {
+  width: 16%;
+  float: left;
+  height: 100px;
+  padding: 2%;
+}
+.workflow {
+  margin: 50px 20% 50px;
+}
+.main_footer {
+  margin: 450px 15% 50px;
+}
+.footer {
+  background: #F5F6F8;
+  height: 150px;
+}
+table {
+  width: 100%;
+  height: 150px;
+}
+table p {
+  color: black;
+}
+table p:hover {
+  color: #26BBA5;
+}
+.logo_cell, .icon_cell {
+  text-align: center;
+  width: 25%;
+}
+.logo_cell img {
+  width: 20%;
+}
+.icon_cell img {
+  margin: 10px;
+}
+.icon_cell img:hover {
+  filter: sepia(100%);
+}
+

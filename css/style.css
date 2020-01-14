@@ -33,11 +33,18 @@ p {
   border-radius: 30px;
   cursor: pointer;
 }
+.button:hover {
+  filter: opacity(75%);
+}
 .but_1 {
+  border: green;
   background: #26BBA5;
+  box-shadow: 0px 2px 30px 0px #26BBA5;
 }
 .but_2 {
-  background: #6174FF; 
+  border: blue;
+  background: #6174FF;
+  box-shadow: 0px 2px 30px 0px #6174FF; 
 }
 .main_header {
   margin-bottom: 100px;
@@ -106,8 +113,9 @@ table p:hover {
 }
 .icon_cell img {
   margin: 10px;
+  filter: blur(2px);
 }
 .icon_cell img:hover {
-  filter: sepia(100%);
+  filter: none;
 }
 

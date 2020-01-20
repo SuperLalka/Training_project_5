@@ -32,6 +32,7 @@ p {
   padding: 20px 50px;
   border-radius: 30px;
   cursor: pointer;
+  outline: none;
 }
 .button:hover {
   filter: opacity(75%);
@@ -39,16 +40,16 @@ p {
 .but_1 {
   border: green;
   background: #26BBA5;
-  box-shadow: 0px 2px 30px 0px #26BBA5;
+  box-shadow: 0 2px 30px 0 #26BBA5;
 }
 .but_2 {
   border: blue;
   background: #6174FF;
-  box-shadow: 0px 2px 30px 0px #6174FF; 
+  box-shadow: 0 2px 30px 0 #6174FF;
 }
 .main_header {
   margin-bottom: 100px;
-  padding: 0 20% 0% 20%;
+  padding: 0 20% 0 20%;
 }
 .computer {
   width: 50%;
@@ -64,7 +65,7 @@ p {
   text-align: left;
   float: right;
   height: 200px;
-  padding: 0 10% 0% 10%;
+  padding: 0 10% 0 10%;
 }
 .clipboard {
   margin: 750px 20% 50px;
